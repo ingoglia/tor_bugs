@@ -248,7 +248,7 @@ CONSENSUS_DOWNLOAD_RETRY = True
 # 1.0/(10.0*100 + 1.0*9) * 9 = 0.9% of attempts.
 # (This disregards the bootstrap schedules, where clients start by choosing
 # from fallbacks & authoritites, then later choose from only authorities.)
-FALLBACK_OUTPUT_WEIGHT = 10.0
+FALLBACK_OUTPUT_WEIGHT = 9.0
 
 ## Parsing Functions
 
